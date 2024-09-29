@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.left{
+    width: 10%;
+    position: absolute;
+    left: -25%;
+    transform: rotate(90deg);
+    width: 1200px;
+
+
+}
+
+.right{
+    width: 10%;
+    position: absolute;
+    right: -25%;
+    transform: rotate(270deg);
+    width: 1200px;
+
+
+}
+.cont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img img{
+    width: 400px;
+}
+.text{
+    color: aliceblue;
+    margin-top: 120px;
+    font-size: 3rem;
+}
+.btn{
+    margin-top: 80px;
+    color: black;
+    background-color: #e4c413;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 20px;
+
+}
+
+.btn a{
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke: 1px;
+    color: black;
+    font-size: 3rem;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 3px solid #e4c413;
+    transition: 1.5s ease-in-out;
+}
+
+
+
+@media (max-width: 507px) {
+
+    .left{
+        display: none;
+    }
+    
+    .right{
+        display: none;
+    }
+    .cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img img{
+        width: 300px;
+    }
+    .text{
+        color: aliceblue;
+        margin-top: 100px;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .text::before{
+        content:" ";
+        position: absolute;
+        width: 100%;
+        background-color: #e4c413;
+        height: 2px;
+        bottom: -10px;
+    }
+    .btn{
+        margin-top: 80px;
+        color: black;
+        background-color: #e4c413;
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 20px;
+    
+    }
+    
+    .btn a{
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke: 1px;
+        color: black;
+        font-size: 3rem;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+        border: 3px solid #e4c413;
+        transition: 1.5s ease-in-out;
+    }
+    
+}
+
+
+@media screen and (min-device-width: 508px) and (max-device-width: 968px) { 
+
+    .left{
+        display: none;
+    }
+    
+    .right{
+        display: none;
+    }
+    .cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img img{
+        width: 300px;
+    }
+    .text{
+        color: aliceblue;
+        margin-top: 100px;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .text::before{
+        content:" ";
+        position: absolute;
+        width: 100%;
+        background-color: #e4c413;
+        height: 2px;
+        bottom: -10px;
+    }
+    .btn{
+        margin-top: 80px;
+        color: black;
+        background-color: #e4c413;
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 20px;
+    
+    }
+    
+    .btn a{
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke: 1px;
+        color: black;
+        font-size: 3rem;
+    }
+    
+    .btn:hover{
+        background-color: transparent;
+        border: 3px solid #e4c413;
+        transition: 1.5s ease-in-out;
+    }   
+
+
+
+
+
+
+
+
+ 
+
+}
